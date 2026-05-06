@@ -73,7 +73,7 @@ const educationInfo = {
     {
       schoolName: "University of California, San Diego",
       subHeader: "Bachelor of Science in Mathematics-Computer Science",
-      companylogo: require("./src/assets/images/ucsd.png"),
+      logo: require("./assets/images/ucsd.png"),
       duration: "Graduated June 2020",
       desc: "",
       descBullets: []
@@ -111,7 +111,7 @@ const workExperiences = {
       role: "Consultant - Product Support",
       company: "Wiley Edge",
       date: "September 2021 – April 2023",
-      companylogo: require("./src/assets/images/wileyEdge.png"),
+      companylogo: require("./assets/images/wileyEdge.png"),
       desc: "Bridged communication between clients and engineering teams to resolve software issues.",
       descBullets: [
         "Reduced response time by 30% by coordinating between clients and engineering teams",
@@ -122,7 +122,7 @@ const workExperiences = {
     {
       role: "Laptop Maintenance Support - Volunteer",
       company: "MEDA (Mission Economic Development Agency)",
-      companylogo: require("./src/assets/images/meda.jpg"),
+      companylogo: require("./assets/images/meda.jpg"),
       date: "April 2025 – September 2025",
       desc: "Restored and maintained laptops for community public use.",
       descBullets: [
@@ -183,26 +183,26 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆"),
   subtitle: "Certifications and programs I have completed",
-  achievementsCards: [
-    {
-      title: "Google IT Professional Support Certificate",
-      subtitle: "Completed via Coursera — July 2025",
-      companylogo: "https://logo.clearbit.com/google.com", // Google/Coursera
-      footerLink: []
-    },
-    {
-      title: "Google Data Analytics Certificate",
-      subtitle: "Completed via Coursera — September 2025",
-      companylogo: "https://logo.clearbit.com/google.com", // Google/Coursera
-      footerLink: []
-    },
-    {
-      title: "Mission Techies IT Pre-Apprenticeship Program",
-      subtitle: "Completed August 2025",
-      companylogo: "https://logo.clearbit.com/missiontechies.org", // Mission Techies
-      footerLink: []
-    }
-  ],
+ achievementsCards: [
+  {
+    title: "Google IT Professional Support Certificate",
+    subtitle: "Completed via Coursera — July 2025",
+    image: require("./assets/images/googleAssistantLogo.webp"), // already in your images folder!
+    footerLink: []
+  },
+  {
+    title: "Google Data Analytics Certificate",
+    subtitle: "Completed via Coursera — September 2025",
+    image: require("./assets/images/googleAssistantLogo.webp"), // same google logo
+    footerLink: []
+  },
+  {
+    title: "Mission Techies IT Pre-Apprenticeship Program",
+    subtitle: "Completed August 2025",
+    image: require("./assets/images/meda.jpg"), // same MEDA logo
+    footerLink: []
+  }
+],
   display: true
 };
 

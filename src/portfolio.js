@@ -72,7 +72,6 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of California, San Diego",
-      //logo: require("./assets/images/ucsdLogo.png"),
       subHeader: "Bachelor of Science in Mathematics-Computer Science",
       duration: "Graduated June 2020",
       desc: "",
@@ -110,7 +109,6 @@ const workExperiences = {
     {
       role: "Consultant - Product Support",
       company: "Wiley Edge",
-      //companylogo: require("./assets/images/wileyEdgeLogo.png"),
       date: "September 2021 – April 2023",
       desc: "Bridged communication between clients and engineering teams to resolve software issues.",
       descBullets: [
@@ -122,7 +120,6 @@ const workExperiences = {
     {
       role: "Laptop Maintenance Support - Volunteer",
       company: "MEDA (Mission Economic Development Agency)",
-      //companylogo: require("./assets/images/medaLogo.png"),
       date: "April 2025 – September 2025",
       desc: "Restored and maintained laptops for community public use.",
       descBullets: [

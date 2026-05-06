@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A software engineer with experience in building web applications using Python, Flask, JavaScript and Tkinter."
   ),
-  resumeLink:
-    "https://davidnong9.github.io/resume.pdf", // Set to empty to hide the button
+  resumeLink: "https://davidnong9.github.io/resume.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -49,18 +48,18 @@ const skillsSection = {
   skills: [
     emoji("⚡ Build web applications with React and Flask"),
     emoji("⚡ Develop backend systems and APIs"),
-    emoji("⚡ Build and track data-driven applications"),
+    emoji("⚡ Build and track data-driven applications")
   ],
   softwareSkills: [
-    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
-    { skillName: "TypeScript", fontAwesomeClassname: "fab fa-js-square" },
-    { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
-    { skillName: "React", fontAwesomeClassname: "fab fa-react" },
-    { skillName: "Flask", fontAwesomeClassname: "fas fa-flask" },
-    { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
-    { skillName: "HTML5", fontAwesomeClassname: "fab fa-html5" },
-    { skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt" },
+    {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "JavaScript", fontAwesomeClassname: "fab fa-js"},
+    {skillName: "TypeScript", fontAwesomeClassname: "fab fa-js-square"},
+    {skillName: "Java", fontAwesomeClassname: "fab fa-java"},
+    {skillName: "React", fontAwesomeClassname: "fab fa-react"},
+    {skillName: "Flask", fontAwesomeClassname: "fas fa-flask"},
+    {skillName: "Git", fontAwesomeClassname: "fab fa-git-alt"},
+    {skillName: "HTML5", fontAwesomeClassname: "fab fa-html5"},
+    {skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt"}
   ],
   display: true
 };
@@ -183,26 +182,26 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆"),
   subtitle: "Certifications and programs I have completed",
- achievementsCards: [
-  {
-    title: "Google IT Professional Support Certificate",
-    subtitle: "Completed via Coursera — July 2025",
-    image: require("./assets/images/googleAssistantLogo.webp"), // already in your images folder!
-    footerLink: []
-  },
-  {
-    title: "Google Data Analytics Certificate",
-    subtitle: "Completed via Coursera — September 2025",
-    image: require("./assets/images/googleAssistantLogo.webp"), // same google logo
-    footerLink: []
-  },
-  {
-    title: "Mission Techies IT Pre-Apprenticeship Program",
-    subtitle: "Completed August 2025",
-    image: require("./assets/images/meda.jpg"), // same MEDA logo
-    footerLink: []
-  }
-],
+  achievementsCards: [
+    {
+      title: "Google IT Professional Support Certificate",
+      subtitle: "Completed via Coursera — July 2025",
+      image: require("./assets/images/googleAssistantLogo.webp"), // already in your images folder!
+      footerLink: []
+    },
+    {
+      title: "Google Data Analytics Certificate",
+      subtitle: "Completed via Coursera — September 2025",
+      image: require("./assets/images/googleAssistantLogo.webp"), // same google logo
+      footerLink: []
+    },
+    {
+      title: "Mission Techies IT Pre-Apprenticeship Program",
+      subtitle: "Completed August 2025",
+      image: require("./assets/images/meda.jpg"), // same MEDA logo
+      footerLink: []
+    }
+  ],
   display: true
 };
 

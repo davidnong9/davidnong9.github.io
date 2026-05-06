@@ -73,6 +73,7 @@ const educationInfo = {
     {
       schoolName: "University of California, San Diego",
       subHeader: "Bachelor of Science in Mathematics-Computer Science",
+      companylogo: "https://logo.clearbit.com/ucsd.edu", // UCSD
       duration: "Graduated June 2020",
       desc: "",
       descBullets: []
@@ -110,6 +111,7 @@ const workExperiences = {
       role: "Consultant - Product Support",
       company: "Wiley Edge",
       date: "September 2021 – April 2023",
+      companylogo: "https://logo.clearbit.com/wiley.com", // Wiley Edge
       desc: "Bridged communication between clients and engineering teams to resolve software issues.",
       descBullets: [
         "Reduced response time by 30% by coordinating between clients and engineering teams",
@@ -184,16 +186,19 @@ const achievementSection = {
     {
       title: "Google IT Professional Support Certificate",
       subtitle: "Completed via Coursera — July 2025",
+      companylogo: "https://logo.clearbit.com/google.com", // Google/Coursera
       footerLink: []
     },
     {
       title: "Google Data Analytics Certificate",
       subtitle: "Completed via Coursera — September 2025",
+      companylogo: "https://logo.clearbit.com/google.com", // Google/Coursera
       footerLink: []
     },
     {
       title: "Mission Techies IT Pre-Apprenticeship Program",
       subtitle: "Completed August 2025",
+      companylogo: "https://logo.clearbit.com/missiontechies.org", // Mission Techies
       footerLink: []
     }
   ],
